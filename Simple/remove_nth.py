@@ -1,0 +1,6 @@
+str=input("Enter any string : ")
+lst= list(str)
+n=int(input("Enter the n : "))
+print("You have removed : ", lst.pop(n))
+str="".join(lst)
+print("Now String is: '{}' ".format(str))
