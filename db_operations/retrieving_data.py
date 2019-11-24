@@ -1,7 +1,7 @@
 ########### Fetch one ##############
 import mysql.connector
 
-conn = mysql.connector.connect(host="localhost", database="mydb", user="root", password='mysql')
+conn = mysql.connector.connect(host="localhost", database="mydb", user="root", password='####')
 cur = conn.cursor()
 cur.execute("SELECT * FROM EMPLOYEE")
 
