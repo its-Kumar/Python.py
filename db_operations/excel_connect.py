@@ -1,7 +1,7 @@
 import mysql.connector
 from xlwt import Workbook
 
-conn = mysql.connector.connect(host="localhost", database="mydb", user="root", password='mysql')
+conn = mysql.connector.connect(host="localhost", database="mydb", user="root", password='####')
 
 cur = conn.cursor()
 wb = Workbook()
