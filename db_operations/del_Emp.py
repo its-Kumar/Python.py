@@ -3,7 +3,7 @@ import mysql.connector
 
 def delete(id):
     conn = mysql.connector.connect(
-        host="localhost", database="mydb", user="root", password='mysql')
+        host="localhost", database="mydb", user="root", password='####')
 
     if conn.is_connected():
         print("Connected to mydb database")
