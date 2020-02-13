@@ -9,4 +9,3 @@ for word in lst:
 
 
 print("Word of max length is {} with lenght {}".format(w,max))
-

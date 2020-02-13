@@ -9,7 +9,3 @@ for i in  range(3):
             if(i !=j and j !=k and i !=k):
                 print(lst[i], lst[j], lst[k])
             
-            
-            
-
-

@@ -3,5 +3,7 @@ def Animal_cracker(string):
     return lst[0][0] == lst[1][0]
 
 
-print(Animal_cracker("Hello hii")
-,Animal_cracker("python easy"))
+print(
+    Animal_cracker("Hello hii"),
+    Animal_cracker("python easy")
+    )

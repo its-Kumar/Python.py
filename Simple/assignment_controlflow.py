@@ -6,4 +6,3 @@ for num in range(n+1):
     if(num >100):
         break
     print(num)
-    
