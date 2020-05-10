@@ -1,14 +1,14 @@
 import socket
 
-s=socket.socket()
+# client socket
+c = socket.socket()
 
-s.connect(("localhost",4000))
+# Connect with server 
+c.connect(('localhost', 9999))
 
-msg = s.recv(1024)
+# Send Data to server
+name =  input("Enter your name: ")
+c.send(bytes(name, 'utf-8'))
 
-while msg:
-    print("Recived : ",msg.decode())
-    msg = s.recv(1024)
-    
-    
-s.close()
+# Recieve data from server
+print(c.recv(1024).decode())
