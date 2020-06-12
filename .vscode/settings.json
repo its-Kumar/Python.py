@@ -1,7 +1,7 @@
 {
-    "python.pythonPath": "/home/its-k/anaconda3/bin/python",
+    "python.pythonPath": "/home/its-k/anaconda3/envs/Learning/bin/python",
     "python.linting.pylintEnabled": true,
     "python.linting.enabled": true,
     "python.linting.pylamaEnabled": false,
-    "python.formatting.provider": "yapf"
+    "python.formatting.provider": "autopep8"
 }

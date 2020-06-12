@@ -1,6 +1,6 @@
 def almost_there(num):
     return (
-        (abs(num-100) <=10) or (abs(num-200) <= 10)
+        (abs(num-100) <= 10) or (abs(num-200) <= 10)
     )
 
 

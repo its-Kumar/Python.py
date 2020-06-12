@@ -1,18 +1,18 @@
 def summer_69(arr):
-    total  = 0
-    add =True
+    total = 0
+    add = True
     for n in arr:
         while add:
-            if n !=6:
-                total +=n
+            if n != 6:
+                total += n
                 break
             else:
                 add = False
         while not add:
-            if n!= 9:
+            if n != 9:
                 break
             else:
-                add= True
+                add = True
                 break
     return total
 

@@ -1,14 +1,15 @@
 from threading import *
 from time import sleep
+
+
 class MyThread:
     def DisplayNumbers(self):
-        i= 0
+        i = 0
         print(current_thread().getName())
         sleep(1)
-        while(i <=10):
-            i +=1
+        while(i <= 10):
+            i += 1
             print(i)
-            
 
 
 obj = MyThread()
