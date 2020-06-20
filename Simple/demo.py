@@ -1,6 +1,6 @@
 import sys
 
-lst = sys.argv
+lst = sys.
 for i in lst:
     print(i)
 

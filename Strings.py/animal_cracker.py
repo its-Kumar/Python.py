@@ -6,4 +6,4 @@ def Animal_cracker(string):
 print(
     Animal_cracker("Hello hii"),
     Animal_cracker("python easy")
-    )
+)

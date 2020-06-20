@@ -1,8 +1,8 @@
 def second_min(students):
-    _min = min(students,key= lambda x:x[1])
-    students = list(filter(lambda a : a[1] != _min[1],students))
+    _min = min(students, key=lambda x: x[1])
+    students = list(filter(lambda a: a[1] != _min[1], students))
     print(students)
-    _min = min(students,key= lambda x:x[1])
+    _min = min(students, key=lambda x: x[1])
     result = []
     for pair in students:
         if (pair[1] == _min[1]):
@@ -15,6 +15,6 @@ if __name__ == '__main__':
     for _ in range(int(input())):
         name = input()
         score = float(input())
-        students.append([name,score])
+        students.append([name, score])
     for name in second_min(students):
         print(name[0])

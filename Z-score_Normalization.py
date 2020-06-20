@@ -5,8 +5,8 @@ m = statistics.mean(arr)
 sigma = statistics.stdev(arr)
 
 i = 0
-while i< len(arr):
-	arr[i] = (arr[i] - m)/sigma
-	i +=1
+while i < len(arr):
+    arr[i] = (arr[i] - m)/sigma
+    i += 1
 
 print(arr)

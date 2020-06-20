@@ -1,9 +1,10 @@
 def find_prime(num):
     lst = []
-    for i in range (2,num):
-        if num%i == 0:
+    for i in range(2, num):
+        if num % i == 0:
             lst.append(i)
-    return lst 
+    return lst
+
 
 n = int(input("Enter any number : "))
 primes = find_prime(n)

@@ -1,4 +1,4 @@
-import socket 
+import socket
 
 # Server socket
 s = socket.socket()

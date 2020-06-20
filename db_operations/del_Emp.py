@@ -7,7 +7,7 @@ def delete(id):
 
     if conn.is_connected():
         print("Connected to mydb database")
-    
+
     cursor = conn.cursor()
 
     str = "delete from emp where id ='%d'"
@@ -23,6 +23,7 @@ def delete(id):
     finally:
         cursor.close()
         conn.close()
+
 
 empId = int(input("Enter Emp id : "))
 delete(empId)

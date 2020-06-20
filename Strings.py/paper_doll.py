@@ -1,5 +1,5 @@
 def paper_doll(string):
-    tmp =[]
+    tmp = []
     for letter in string:
         tmp.append(letter*3)
     return "".join(tmp)

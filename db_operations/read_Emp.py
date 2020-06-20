@@ -16,7 +16,7 @@ while row is not None:
     row = cursor.fetchone()
 """
 rows = cursor.fetchall()
-print("Total no of rows : ",cursor.rowcount)
+print("Total no of rows : ", cursor.rowcount)
 
 for row in rows:
     print(row)

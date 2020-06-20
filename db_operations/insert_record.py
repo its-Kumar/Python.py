@@ -1,6 +1,7 @@
 import mysql.connector
 
-conn = mysql.connector.connect(host="localhost", database="mydb", user="root", password='###')
+conn = mysql.connector.connect(
+    host="localhost", database="mydb", user="root", password='###')
 
 cur = conn.cursor()
 sql = "INSERT INTO EMPLOYEE (FIRST_NAME,LAST_NAME,AGE,SEX,INCOME)"\

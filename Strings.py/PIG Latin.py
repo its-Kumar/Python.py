@@ -6,19 +6,21 @@
     word  --> ordway
     apple --> appleay
 '''
+
+
 def pig_latin(w):
-    vowels="aeiouAEIOU"
+    vowels = "aeiouAEIOU"
     lst = list(w)
     if lst[0] in vowels:
         lst.append('ay')
     else:
         p = lst.pop(0)
-        lst.extend([p,'ay'])
-    w=''.join(lst)
-    return w 
+        lst.extend([p, 'ay'])
+    w = ''.join(lst)
+    return w
 
 
 print("\tWelcome to PIG LATIN\n")
 word = input("Enter any word : ")
 word = pig_latin(word)
-print("PIG LATIN Word is  : ",word)
+print("PIG LATIN Word is  : ", word)

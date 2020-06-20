@@ -3,12 +3,11 @@ try:
         line = f.read()
         line = line[::-1]
         print(line)
-        
 
 
 except FileNotFoundError:
     print("File not found ... ")
-    
+
 
 finally:
     f.close()

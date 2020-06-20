@@ -8,10 +8,10 @@ msg["From"] = "kumarshanu1009@gmail.com"
 msg["To"] = "kumarshanu1009@gmail.com"
 msg["Subject"] = "Hello"
 
-server = smtplib.SMTP('smtp.gmail.com',587)
+server = smtplib.SMTP('smtp.gmail.com', 587)
 
 server.starttls()
-server.login("username","password")
+server.login("username", "password")
 server.send_message(msg)
 
 print("Mail sent")

@@ -33,4 +33,3 @@ r = int(input("Enter a range : "))
 for num in range(r):
     if is_lab_number(num):
         print(num)
-

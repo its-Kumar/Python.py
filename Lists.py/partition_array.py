@@ -1,7 +1,7 @@
 def make_partition(arr):
     """
     INPUT : array
-    
+
     OUTPUT : array1, array2
             array1 -> partition of array
             array2 -> partition of array
@@ -13,8 +13,8 @@ def make_partition(arr):
         if arr[i] not in arr1:
             arr1.append(arr[i])
         min_ = find_min(arr)
-        
-    return arr1,arr2
+
+    return arr1, arr2
 
 
 n = int(input("Enter the no of elements : "))
