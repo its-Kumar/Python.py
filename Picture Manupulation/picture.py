@@ -48,4 +48,3 @@ for x in range(width):
         black_img.putpixel(pixel_coordinate, neg_color)
 
 black_img.show()
-
