@@ -1,5 +1,5 @@
 import statistics
-import matplotlib.pyplot as plt
+
 arr = list(map(int, input("Enter array: ").split()))
 m = statistics.mean(arr)
 sigma = statistics.stdev(arr)
