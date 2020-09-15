@@ -1,4 +1,3 @@
-
 ####### Master yoda #######
 #  Reverses the words of the string
 # its_Kumar
@@ -10,8 +9,4 @@ def master_yoda(string):
     return " ".join(lst)
 
 
-print(
-    master_yoda("I am home"),
-    master_yoda("We are ready."),
-    sep='\n'
-)
+print(master_yoda("I am home"), master_yoda("We are ready."), sep='\n')

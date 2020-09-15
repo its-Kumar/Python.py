@@ -2,6 +2,7 @@ def decorfun(fun):
     def inner(n):
         result = fun(n)
         return result + " How are you ?"
+
     return inner
 
 

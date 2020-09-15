@@ -2,7 +2,6 @@ from threading import *
 
 
 class EvenNumberThread:
-
     def even(self):
         print(current_thread().getName())
         for i in range(2, 100, 2):
@@ -10,7 +9,6 @@ class EvenNumberThread:
 
 
 class OddNumberThread:
-
     def odd(self):
         print(current_thread().getName())
         for i in range(1, 100, 2):

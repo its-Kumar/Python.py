@@ -5,6 +5,4 @@ def word_length(phrase):
 
 
 ph = input("Enter any phrase : ")
-print(
-    word_length(ph)
-)
+print(word_length(ph))

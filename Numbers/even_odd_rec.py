@@ -1,7 +1,7 @@
 def is_even(num):
     if (num < 2):
         return (n % 2 == 0)
-    return is_even(num-2)
+    return is_even(num - 2)
 
 
 if __name__ == "__main__":

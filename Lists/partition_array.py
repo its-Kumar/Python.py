@@ -9,10 +9,10 @@ def make_partition(arr):
     """
     arr1 = []
     arr2 = []
-    for i in range(arr):
+    for i in range(len(arr)):
         if arr[i] not in arr1:
             arr1.append(arr[i])
-        min_ = find_min(arr)
+        min_ = min(arr)
 
     return arr1, arr2
 

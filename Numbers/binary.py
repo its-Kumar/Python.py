@@ -6,7 +6,7 @@ def binary(num):
         return list
     d = num % 2
     list.append(d)
-    binary(num//2)
+    binary(num // 2)
 
 
 if __name__ == "__main__":

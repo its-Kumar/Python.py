@@ -5,6 +5,6 @@ sum = 0
 for el in lst:
     sum += el
 
-avg = sum/len(lst)
+avg = sum / len(lst)
 
 print("Average = ", avg)

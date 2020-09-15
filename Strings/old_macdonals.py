@@ -3,6 +3,4 @@ def old_macdonals(name):
     return name.replace(name[3], name[3].upper())
 
 
-print(
-    old_macdonals("macdonals")
-)
+print(old_macdonals("macdonals"))

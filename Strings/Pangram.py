@@ -1,4 +1,3 @@
-
 def is_pangram(str):
     list = []
 

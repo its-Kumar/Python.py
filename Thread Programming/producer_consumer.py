@@ -3,21 +3,19 @@ from time import sleep
 
 
 class Producer:
-
     def __init__(self):
         self.products = []
         self.ordersplaced = False
 
     def produce(self):
         for i in range(1, 5):
-            self.products.append("product "+str(i))
+            self.products.append("product " + str(i))
             sleep(1)
             print("Item added..")
         self.ordersplaced = True
 
 
 class Consumer:
-
     def __init__(self, prod):
         self.prod = prod
 

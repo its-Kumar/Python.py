@@ -2,7 +2,7 @@ from functools import reduce
 
 
 def digit_to_num(digits):
-    num = reduce(lambda x, y: x*10 + y, digits)
+    num = reduce(lambda x, y: x * 10 + y, digits)
     return num
 
 

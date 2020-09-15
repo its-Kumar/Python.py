@@ -32,5 +32,5 @@ if __name__ == "__main__":
         else:
             o += 1
 
-    print("The string contains {} lower , {} upper and {} other characters. ".format(
-        l, u, o))
+    print("The string contains {} lower , {} upper and {} other characters. ".
+          format(l, u, o))

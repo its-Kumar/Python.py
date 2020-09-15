@@ -3,7 +3,6 @@ from time import sleep
 
 
 class Producer:
-
     def __init__(self):
         self.products = []
         self.c = Condition()
@@ -11,7 +10,7 @@ class Producer:
     def produce(self):
         self.c.acquire()
         for i in range(1, 5):
-            self.products.append("product "+str(i))
+            self.products.append("product " + str(i))
             sleep(1)
             print("Item added..")
         self.c.notify()
@@ -19,7 +18,6 @@ class Producer:
 
 
 class Consumer:
-
     def __init__(self, prod):
         self.prod = prod
 
