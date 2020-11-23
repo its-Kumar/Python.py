@@ -1,5 +1,6 @@
-from mydb import MyDB
 import pytest
+
+from mydb import MyDB
 
 #conn = None
 #cur = None

@@ -10,5 +10,4 @@ while msg:
     print("Recived : ", msg.decode())
     msg = s.recv(1024)
 
-
 s.close()

@@ -1,5 +1,5 @@
-import time
 import multiprocessing
+import time
 
 
 def deposite(balance, lock):

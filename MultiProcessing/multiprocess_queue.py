@@ -2,6 +2,7 @@
 Sharing memory using queue
 """
 import multiprocessing
+
 numbers = [1, 2, 3, 43, 5, 6, 7]
 
 

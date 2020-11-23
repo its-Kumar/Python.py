@@ -1,8 +1,8 @@
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 from math import pi
 
 
-class Shapes:
+class Shapes(ABC):
     @abstractmethod
     def area(self):
         pass

@@ -1,8 +1,8 @@
 """
 Parallel processing
 """
-from multiprocessing import Pool
 import time
+from multiprocessing import Pool
 
 
 def f(n):

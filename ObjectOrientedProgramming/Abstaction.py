@@ -1,7 +1,7 @@
-from abc import abstractmethod
+from abc import ABC, abstractmethod
 
 
-class TouchScreenLaptop:
+class TouchScreenLaptop(ABC):
     def __init__(self, name, model):
         self.name = name
         self.model = model
@@ -57,3 +57,7 @@ if __name__ == "__main__":
     hpn.click()
     dln.scroll()
     dln.click()
+    print(hpn.name)
+    print(dln.name)
+    print(hpn.SSDEnabled)
+    print(dln.CTypeEnabled)
