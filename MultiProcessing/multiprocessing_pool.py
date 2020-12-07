@@ -10,16 +10,16 @@ def f(n):
     for x in range(1000):
         sum += x * x
     return sum
-    #return n * n
+    # return n * n
 
 
 if __name__ == "__main__":
     array = [1, 2, 3, 4, 5]
     t1 = time.time()
     p = Pool()
-    #result = p.map(f, array)
+    # result = p.map(f, array)
     result = p.map(f, range(100000))
-    #print(result)
+    # print(result)
     p.close()
     p.join()
     print("Pool Took:", time.time() - t1)

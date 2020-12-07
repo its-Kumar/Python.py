@@ -22,7 +22,7 @@ class Consumer:
     def consume(self):
         while self.prod.ordersplaced == False:
             print("Waiting..")
-            sleep(.2)
+            sleep(0.2)
 
         print("Shipped  :", self.prod.products)
 

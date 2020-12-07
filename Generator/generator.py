@@ -14,7 +14,7 @@ print(type(itr))
 print(next(itr))
 print(next(itr))
 print(next(itr))
-#print(next(itr))
+# print(next(itr))
 
 for c in remote_control_next():
     print(c)

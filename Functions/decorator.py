@@ -7,14 +7,13 @@ def time_it(fun):
         start = time.time()
         result = fun(*args, **kwargs)
         end = time.time()
-        print(fun.__name__ + " took " + str((end - start) * 1000) +
-              " mil second ")
+        print(fun.__name__ + " took " + str((end - start) * 1000) + " mil second ")
         return result
 
     return wrapper
 
 
-#@time_it
+# @time_it
 def square(numbers):
     result = []
     for i in numbers:

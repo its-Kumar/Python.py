@@ -1,5 +1,5 @@
-cities = ['mumbai', 'delhi', 'new york']
-country = ['india', 'india', 'us']
+cities = ["mumbai", "delhi", "new york"]
+country = ["india", "india", "us"]
 
 for k, v in zip(cities, country):
     print(k, v)

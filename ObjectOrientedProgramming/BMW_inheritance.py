@@ -43,12 +43,12 @@ class FiveClass(BMW):
 
 
 threeClass = ThreeClass(True, "BMW", "328i", 2018)
-print(threeClass.CuriseAssistEnabled, threeClass.name, threeClass.model,
-      threeClass.year)
+print(
+    threeClass.CuriseAssistEnabled, threeClass.name, threeClass.model, threeClass.year
+)
 
 fiveClass = FiveClass(False, "BMW", "436j", 2017)
-print(fiveClass.ParkingAssistEnabled, fiveClass.name, fiveClass.model,
-      fiveClass.year)
+print(fiveClass.ParkingAssistEnabled, fiveClass.name, fiveClass.model, fiveClass.year)
 
 threeClass.start()
 threeClass.stop()

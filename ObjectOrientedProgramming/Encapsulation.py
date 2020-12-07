@@ -10,7 +10,7 @@ class Student:
 
 
 s1 = Student("KUMAR", 25)
-#print(s1.__id);   print(s1.__name)
+# print(s1.__id);   print(s1.__name)
 s1.display()
 
 # Name Mangling

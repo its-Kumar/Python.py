@@ -25,7 +25,7 @@ class Circle(Shapes):
         return pi * self.radius * self.radius
 
     def perimeter(self):
-        return (2 * pi * self.radius)
+        return 2 * pi * self.radius
 
 
 class Triangle(Shapes):

@@ -7,7 +7,7 @@ class MyThread:
         i = 0
         print(current_thread().getName())
         sleep(1)
-        while (i <= 10):
+        while i <= 10:
             i += 1
             print(i)
 

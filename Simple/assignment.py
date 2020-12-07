@@ -1,6 +1,6 @@
 math, pysics, chemistry = (
-    float(x)
-    for x in input("Enter marks for math, pysics and chemistry : ").split())
+    float(x) for x in input("Enter marks for math, pysics and chemistry : ").split()
+)
 if math < 35:
     print("You have failed in math")
 elif pysics < 35:

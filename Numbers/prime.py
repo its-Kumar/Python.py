@@ -8,7 +8,7 @@ for i in range(2, num):
     else:
         pass
 
-if (primeFlag):
+if primeFlag:
     print(num, " is prime.")
 else:
     print(num, " is not prime.")

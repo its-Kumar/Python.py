@@ -2,7 +2,7 @@ def is_prime(num, div=None):
     if div is None:
         div = num - 1
     while div >= 2:
-        if (num % div == 0):
+        if num % div == 0:
             print("Number is not prime...")
             return False
         else:

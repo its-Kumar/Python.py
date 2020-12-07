@@ -4,7 +4,7 @@ alpha = "abcdefghijklmnopqrstuvwxyz"
 def encrypt(s, shift=3):
     encrypted_str = ""
     for char in s:
-        if char == ' ':
+        if char == " ":
             encrypted_str += char
         else:
             index = alpha.index(char)
@@ -16,7 +16,7 @@ def encrypt(s, shift=3):
 def decrypt(e, shift=3):
     decrypted_str = ""
     for char in e:
-        if char == ' ':
+        if char == " ":
             decrypted_str += char
         else:
             index = alpha.index(char)
@@ -25,7 +25,7 @@ def decrypt(e, shift=3):
     return decrypted_str
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     str = input("Enter msg : ")
     encrypted_msg = encrypt(str, 2)
     print("encrypted msg : ", encrypted_msg)

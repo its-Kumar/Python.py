@@ -15,8 +15,9 @@ def test_calc_mul():
     assert result == 30
 
 
-@pytest.mark.parametrize("test_input, expected_output", [(5, 25), (9, 81),
-                                                         (10, 100), (-2, 4)])
+@pytest.mark.parametrize(
+    "test_input, expected_output", [(5, 25), (9, 81), (10, 100), (-2, 4)]
+)
 def test_calc_sqaure(test_input, expected_output):
     result = mathlib.calc_square(test_input)
     assert result == expected_output

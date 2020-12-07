@@ -8,9 +8,9 @@ numbers = [1, 2, 3, 43, 5, 6, 7]
 
 def calc_sqrt(nums, q):
     for n in nums:
-        #time.sleep(5)
-        print("Square: ", n**2)
-        q.put(n**2)
+        # time.sleep(5)
+        print("Square: ", n ** 2)
+        q.put(n ** 2)
 
 
 if __name__ == "__main__":

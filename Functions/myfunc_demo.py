@@ -5,7 +5,7 @@
 
 def myfunc():
     """
-        A simple function
+    A simple function
     """
     first = 1
     second = 2

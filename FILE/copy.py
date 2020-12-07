@@ -1,6 +1,6 @@
 try:
-    s = open("myfile.txt", 'r')
-    t = open("copy.txt", 'w')
+    s = open("myfile.txt", "r")
+    t = open("copy.txt", "w")
     cont = s.read()
     t.write(cont)
 

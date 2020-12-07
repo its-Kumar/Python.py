@@ -15,10 +15,10 @@ class ListClass:
 l = ListClass()
 l.display()
 
-l.append('a')
-l.append('b')
-l.append('c')
+l.append("a")
+l.append("b")
+l.append("c")
 l.display()
 
-l.delete('a')
+l.delete("a")
 l.display()

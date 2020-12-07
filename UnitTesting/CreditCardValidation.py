@@ -3,9 +3,9 @@ from datetime import *
 
 def ValidateCard(expDate):
     if expDate > datetime.now().date():
-        return 'Valid'
+        return "Valid"
     else:
-        return 'Expired'
+        return "Expired"
 
 
 if __name__ == "__main__":

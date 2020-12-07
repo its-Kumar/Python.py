@@ -5,8 +5,8 @@ def is_pangram(str):
         list.append(False)
 
     for char in str:
-        if char != ' ':
-            list[ord(char) - ord('a')] = True
+        if char != " ":
+            list[ord(char) - ord("a")] = True
 
     for c in list:
         if c == False:

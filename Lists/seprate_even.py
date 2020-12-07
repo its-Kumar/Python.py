@@ -4,7 +4,7 @@ even = []
 odd = []
 
 for el in lst:
-    if (el % 2 == 0):
+    if el % 2 == 0:
         even.append(el)
     else:
         odd.append(el)

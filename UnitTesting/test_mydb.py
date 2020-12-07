@@ -2,8 +2,8 @@ import pytest
 
 from mydb import MyDB
 
-#conn = None
-#cur = None
+# conn = None
+# cur = None
 
 
 # dependency injuction
@@ -16,7 +16,7 @@ def cur():
     yield cur_
     cur_.close()
     conn.close()
-    print('closing database....')
+    print("closing database....")
 
 
 """

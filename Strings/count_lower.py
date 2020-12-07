@@ -25,12 +25,15 @@ if __name__ == "__main__":
     o = 0
     for char in s:
 
-        if (is_lower(char)):
+        if is_lower(char):
             l += 1
-        elif (is_upper(char)):
+        elif is_upper(char):
             u += 1
         else:
             o += 1
 
-    print("The string contains {} lower , {} upper and {} other characters. ".
-          format(l, u, o))
+    print(
+        "The string contains {} lower , {} upper and {} other characters. ".format(
+            l, u, o
+        )
+    )

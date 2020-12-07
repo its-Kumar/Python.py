@@ -8,7 +8,7 @@ def resize_images(image_names, new_size=(300, 300)):
         img.save("resized_" + image_name)
 
 
-'''
+"""
 images =['spider.jpg', 'black.jpg', 'deadpool.jpg']
 resize_images(images)
 
@@ -16,7 +16,7 @@ spider_img=Image.open('spider.jpg')
 spider_img.show()
 spider_img =spider_img.crop((100,100,400,400))
 spider_img.show()
-'''
+"""
 """
 deadpool_img=Image.open('deadpool.jpg')
 deadpool_img.show()
@@ -34,7 +34,7 @@ bright=ImageEnhance.Brightness(contrast).enhance(2)
 bright.show()
 """
 
-black_img = Image.open('black.jpg')
+black_img = Image.open("black.jpg")
 black_img.show()
 width, height = black_img.size
 

@@ -17,7 +17,7 @@ class Connection:
         pass
 
 
-class Cursor():
+class Cursor:
     def execute(self, query):
         if query == "select id from employee_db where name=John":
             return 123

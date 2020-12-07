@@ -21,12 +21,12 @@ import json
 
 if __name__ == "__main__":
     book = {}
-    book['tom'] = {
+    book["tom"] = {
         "name": "tom",
         "address": "1 red street",
         "phone": 1234545,
     }
-    book['pop'] = {
+    book["pop"] = {
         "name": "pop",
         "address": "2 red street",
         "phone": 1245545,

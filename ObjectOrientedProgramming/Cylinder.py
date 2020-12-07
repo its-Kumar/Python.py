@@ -10,7 +10,7 @@ class Cylinder:
         return Cylinder.pi * self.radius * self.radius
 
     def surface_area(self):
-        return (2 * Cylinder.pi * self.radius * (self.height + self.radius))
+        return 2 * Cylinder.pi * self.radius * (self.height + self.radius)
 
 
 C = Cylinder(height=3, radius=2)

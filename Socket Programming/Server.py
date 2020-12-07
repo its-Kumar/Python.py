@@ -5,10 +5,10 @@ s = socket.socket()
 print("Socket Created")
 
 # socket.bind(('IPAdress', Port No))
-s.bind(('localhost', 9999))
+s.bind(("localhost", 9999))
 
 s.listen(3)
-print('Waiting for connections')
+print("Waiting for connections")
 
 while True:
     # Accept the connection request from client
@@ -19,7 +19,7 @@ while True:
     print("connected with ", addr, name)
 
     # Send data to the client
-    c.send(bytes('Welcome....', 'utf-8'))
+    c.send(bytes("Welcome....", "utf-8"))
 
     # Close the connection
     c.close()
