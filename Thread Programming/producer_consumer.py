@@ -1,4 +1,4 @@
-from threading import *
+from threading import Thread
 from time import sleep
 
 
@@ -20,7 +20,7 @@ class Consumer:
         self.prod = prod
 
     def consume(self):
-        while self.prod.ordersplaced == False:
+        while self.prod.ordersplaced is False:
             print("Waiting..")
             sleep(0.2)
 

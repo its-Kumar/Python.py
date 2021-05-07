@@ -1,6 +1,7 @@
 import unittest
+from datetime import date
 
-from CreditCardValidation import *
+from CreditCardValidation import ValidateCard
 
 
 class CreditCardValidationTest(unittest.TestCase):

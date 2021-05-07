@@ -1,4 +1,4 @@
-from threading import *
+from threading import Thread, current_thread
 
 
 def DisplayNumbers():

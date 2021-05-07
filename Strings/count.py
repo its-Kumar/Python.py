@@ -1,8 +1,8 @@
 str = input("Enter any string : ")
-l = len(str)
+len_ = len(str)
 char = 0
 word = 0
-for i in range(l):
+for i in range(len_):
     char += 1
     if str[i] == " ":
         word += 1

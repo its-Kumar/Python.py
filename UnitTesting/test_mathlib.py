@@ -1,6 +1,5 @@
-import pytest
-
 import mathlib
+import pytest
 
 
 # skipping test

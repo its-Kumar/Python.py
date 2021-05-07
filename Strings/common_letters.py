@@ -6,5 +6,5 @@ s2 = set(str2)
 common = s1 & s2
 
 print("common letters in strings are : ")
-for l in common:
-    print(l, end=" ")
+for ltr in common:
+    print(ltr, end=" ")

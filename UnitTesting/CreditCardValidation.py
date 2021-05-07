@@ -1,4 +1,4 @@
-from datetime import *
+from datetime import date, datetime
 
 
 def ValidateCard(expDate):

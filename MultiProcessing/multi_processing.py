@@ -1,5 +1,4 @@
 import multiprocessing
-import time
 
 sqrt_result = []
 

@@ -6,7 +6,7 @@ try:
 
     print("File copied successfully...!!!")
 
-except:
+except FileNotFoundError:
     print("File doesnot present in directory...")
 
 finally:

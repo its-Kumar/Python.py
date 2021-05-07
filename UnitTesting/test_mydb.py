@@ -1,5 +1,4 @@
 import pytest
-
 from mydb import MyDB
 
 # conn = None

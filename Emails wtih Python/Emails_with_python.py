@@ -1,7 +1,5 @@
-"""
-Send Emails using python.
+"""Send Emails using python."""
 
-"""
 import getpass
 import smtplib
 

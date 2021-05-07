@@ -12,13 +12,13 @@ class ListClass:
         print(self.elements)
 
 
-l = ListClass()
-l.display()
+lst = ListClass()
+lst.display()
 
-l.append("a")
-l.append("b")
-l.append("c")
-l.display()
+lst.append("a")
+lst.append("b")
+lst.append("c")
+lst.display()
 
-l.delete("a")
-l.display()
+lst.delete("a")
+lst.display()

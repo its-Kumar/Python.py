@@ -1,8 +1,8 @@
-def max_crossingsum(arr, l, m, h):
+def max_crossingsum(arr, low, m, h):
     sm = 0
     left_sum = -10000
 
-    for i in range(m, l - 1, -1):
+    for i in range(m, low - 1, -1):
         sm += arr[i]
         if sm > left_sum:
             left_sum = sm
@@ -17,16 +17,16 @@ def max_crossingsum(arr, l, m, h):
     return right_sum + left_sum
 
 
-def max_subarraySum(arr, l, h):
-    if l == h:
-        return arr[l]
+def max_subarraySum(arr, low, h):
+    if low == h:
+        return arr[low]
 
-    m = (l + h) // 2
+    m = (low + h) // 2
 
     return max(
-        max_subarraySum(arr, l, m),
+        max_subarraySum(arr, low, m),
         max_subarraySum(arr, m + 1, h),
-        max_crossingsum(arr, l, m, h),
+        max_crossingsum(arr, low, m, h),
     )
 
 

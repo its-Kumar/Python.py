@@ -3,7 +3,7 @@ try:
     line = input("Enter a line to the file. ")
     f.write(line)
 
-except:
+except FileNotFoundError:
     print("File not found...")
 
 finally:

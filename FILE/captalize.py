@@ -6,5 +6,5 @@ try:
         line = line.title()
         f.write(line)
 
-except:
+except FileNotFoundError:
     print("File not found ... ")

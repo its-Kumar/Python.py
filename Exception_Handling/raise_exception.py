@@ -16,5 +16,6 @@ class Accident(Exception):
 
 try:
     raise Accident("Crash two cars")
+
 except Exception as e:
-    e.print_exception()
+    print(e)

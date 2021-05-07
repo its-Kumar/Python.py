@@ -1,14 +1,14 @@
-from threading import *
+from threading import Lock, Thread
 
 
 class BookMyBus:
     def __init__(self, availableSeats):
         self.availableSeats = availableSeats
-        self.l = Lock()
+        self.lock = Lock()
 
     def buy(self, seatsReq):
         print("Total seat available : ", self.availableSeats)
-        self.l.acquire()
+        self.lock.acquire()
         if self.availableSeats >= seatsReq:
             print("Confirming the seat..")
             print("Processing the payment..")
@@ -16,7 +16,7 @@ class BookMyBus:
             self.availableSeats -= seatsReq
         else:
             print("Sorry. No seats available...")
-        self.l.release()
+        self.lock.release()
 
 
 obj = BookMyBus(10)
