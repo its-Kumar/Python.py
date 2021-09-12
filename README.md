@@ -3,78 +3,90 @@
 This repository contains all **python** language programs. Basic as well as advance program in python.
 such as working with *database*, *file operations*, *object oriented programming*, etc.
 
-## Author
-
-[Kumar Shanu](https://github.com/its-Kumar/)
 
 ---
 
 ## Structure
 
-* 00__NUMPY__00
+  * 00__NUMPY__00
 
-  * Working with *Numpy Library* (numpy arrays).
+    * Working with *Numpy Library* (numpy arrays).
 
-* Advance Python Module
 
-  * Opening files and folder with python
-  * Python Debugger
-  * Timming your code
-  * Working with zip files
+  * 1_Numbers
 
-* CL_Arguments
+  * 2_Lists
 
-  * Working with commandline arguments
+    Working with **Lists** datastructure in python.
 
-* Comprehensions
+  * 3_Strings
 
-  * Dictionary
-  * List
-  * Set
+  * 4_Comprehensions
 
-* db_operations \
-Working with database with python
+    * Dictionary
+    * List
+    * Set
 
-  * Create database
-  * Connect to database
-  * Connect to excel
-  * Create table
-  * Execute queries *(Select, Insert, update, delete)*
+  * 5_Functions
 
-* Email with python
+  * 6_Files
 
-* Exception Handling
+    Working with files with python i.e. *read a file, write a file, etc.*
 
-* FILE\
-Working with files with python i.e. *read a file, write a file, etc.*
+  * 7_Exception_Handling
 
-* Functions
+  * 8_ObjectOrientedProgramming
 
-* Generators
+  * 9_Decorators
 
-* Iterators
+  * 10_Generators
 
-* Lists\
-Working with **Lists** datastructure in python.
+  * 11_Iterators
 
-* Multiprocessing
+  * 12_CL_Arguments
 
-* Numbers
+    * Working with commandline arguments
 
-* ObjectOrientedProgramming
+  * 13_Thread Programming
 
-* Picture Manupulation
+  * 14_MultiProcessing
 
-* Socket Programming
+  * 15_UnitTesting
 
-* Strings
+  * db_operations
 
-* Thread Programming
+    Working with database with python
+    * Create database
+    * Connect to database
+    * Connect to excel
+    * Create table
+    * Execute queries *(Select, Insert, update, delete)*
 
-* UnitTesting
+  * Emails wtih Python
 
-* Webscraping
+  * Socket Programming
 
-* Working with PDFs
+  * WebScraping
 
-* Working with JSON
+  * Working_with_JSON
+
+  * Working With PDF
+
+  * Advance Python Module
+
+    * Opening files and folder with python
+    * Python Debugger
+    * Timming your code
+    * Working with zip files
+
+---
+
+## Author
+
+[Kumar Shanu](https:github.comits-Kumar)
+
+Thanks to:
+
+[Codebasics](https://www.youtube.com/c/codebasics)
+&
+[Jose Portilla](https://www.udemy.com/share/101W8Q3@pa5FJxo2nxDus0vY4A87dJvk_zNHaYipxx8Q5umM2J0GJp8KRLpOBnJqa8uw5xbw/)

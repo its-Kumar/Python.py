@@ -1,10 +1,10 @@
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host="localhost", database="mydb", user="root", password='####')
+    host="localhost", database="mydb", user="root", password="####"
+)
 
-
-photo = open('photo.png', "rb")
+photo = open("photo.png", "rb")
 show_photo = photo.read()
 
 cur = conn.cursor()

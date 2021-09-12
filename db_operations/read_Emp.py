@@ -1,14 +1,15 @@
 import mysql.connector
 
 conn = mysql.connector.connect(
-    host="localhost", database="mydb", user="root", password='####')
+    host="localhost", database="mydb", user="root", password="####"
+)
 
 if conn.is_connected():
     print("Connected to mydb database")
 
 cursor = conn.cursor()
 
-cursor.execute('select * from emp')
+cursor.execute("select * from emp")
 """
 row = cursor.fetchone()
 while row is not None:

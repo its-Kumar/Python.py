@@ -1,24 +1,26 @@
 import mysql.connector
 
 
-def delete(id):
+def delete(id_):
     conn = mysql.connector.connect(
-        host="localhost", database="mydb", user="root", password='####')
+        host="localhost", database="mydb", user="root", password="####"
+    )
 
     if conn.is_connected():
         print("Connected to mydb database")
 
     cursor = conn.cursor()
 
-    str = "delete from emp where id ='%d'"
-    args = (id)
-    cursor.execute('select * from emp')
+    string = "delete from emp where id ='%d'"
+    args = id_
+    cursor.execute("select * from emp")
 
     try:
-        cursor.execute(str % args)
+        cursor.execute(string % args)
         conn.commit()
         print("Record deleted")
-    except:
+    except Exception as e:
+        print(e)
         conn.rollback()
     finally:
         cursor.close()
