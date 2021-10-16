@@ -1,12 +1,27 @@
 class Student:
-    def __init__(self, name="", id_=0):  # @ReservedAssignment
-        self.name = name
-        self.id = id_
+    """Student class"""
+
+    def __init__(self, name: str, _id=0):  # @ReservedAssignment
+        assert isinstance(name, str), "name should be string"
+        assert isinstance(_id, int), "id should be int"
+        assert (_id >= 0), "id should not be negative"
+
         self.__name = name
-        self.__id = id_
+        self.__id = _id
+
+    @property
+    def id(self):
+        return self.__id
+
+    @property
+    def name(self):
+        return self.__name
 
     def display(self):
-        print(self.__id, self.__name)
+        print(self)
+
+    def __repr__(self):
+        return f"Student(id={self.__id}, name='{self.__name}')"
 
 
 s1 = Student("KUMAR", 25)
@@ -17,8 +32,5 @@ s1.display()
 print(s1._Student__id)
 print(s1._Student__name)
 
-s2 = Student()
-
-s2._Student__id = 23
-s2._Student__name = "shanu"
+s2 = Student("Shanu", 2)
 s2.display()

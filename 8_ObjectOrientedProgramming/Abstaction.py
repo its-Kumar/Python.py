@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class TouchScreenLaptop(ABC):
-    def __init__(self, name, model):
+    def __init__(self, name: str, model: str):
         self.name = name
         self.model = model
 
@@ -16,7 +16,7 @@ class TouchScreenLaptop(ABC):
 
 
 class HP(TouchScreenLaptop):
-    def __init__(self, name, model):
+    def __init__(self, name: str, model:str):
         super().__init__(name, model)
 
     def scroll(self):
@@ -24,7 +24,7 @@ class HP(TouchScreenLaptop):
 
 
 class DELL(TouchScreenLaptop):
-    def __init__(self, name, model):
+    def __init__(self, name: str, model: str):
         super().__init__(name, model)
 
     def scroll(self):
@@ -32,7 +32,7 @@ class DELL(TouchScreenLaptop):
 
 
 class HpNotebook(HP):
-    def __init__(self, name, model, SSDEnabled):
+    def __init__(self, name: str, model: str, SSDEnabled: bool):
         super().__init__(name, model)
         self.SSDEnabled = SSDEnabled
 
@@ -41,7 +41,7 @@ class HpNotebook(HP):
 
 
 class DELLNotebook(DELL):
-    def __init__(self, name, model, CTypeEnabled):
+    def __init__(self, name: str, model: str, CTypeEnabled: bool):
         super().__init__(name, model)
         self.CTypeEnabled = CTypeEnabled
 

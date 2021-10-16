@@ -55,8 +55,8 @@ print(fiveClass.ParkingAssistEnabled, fiveClass.name,
       fiveClass.model, fiveClass.year)
 
 threeClass.start()
-threeClass.stop()
 threeClass.drive()
+threeClass.stop()
 
 fiveClass.display()
 threeClass.display()
