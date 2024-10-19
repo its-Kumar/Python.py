@@ -12,6 +12,8 @@ def get_sql_connection():
     global __cnx
     if __cnx is None:
         __cnx = mysql.connector.connect(
-            user="kumar", password="password", host="localhost", database="my_db"
-        )
+            user="kumar",
+            password="password",
+            host="localhost",
+            database="my_db")
     return __cnx

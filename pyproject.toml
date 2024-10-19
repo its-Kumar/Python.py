@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "python-py"
+version = "0.1.0"
+description = "Contains python programming language learnings"
+readme = "README.md"
+authors = ["Kumar Shanu <49340432+its-Kumar@users.noreply.github.com>"]
+package-mode = false
+
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+pandas = "^2.2.2"
+numpy = "^1.26.4"
+pyPDF2 = "^1.26.0"
+bs4 = "^0.0.1"
+mysql-connector-python = "*"
+send2trash = "*"
+
+[tool.poetry.dev-dependencies]
+autopep8 = ">=2.0.4"
+isort = ">=5.13.2"
+
+[tool.flake8]
+max-line-length = 88  # Flake8 line length
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
